@@ -1,6 +1,6 @@
 #!/usr/local/bin/python2.7
 # -*- coding: utf-8 -*-
-__author__ = https://github.com/password123456/
+__author__ = 'https://github.com/password123456/'
 
 import sys
 reload(sys)
