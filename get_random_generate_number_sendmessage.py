@@ -79,7 +79,6 @@ def calculate():
     match6 = 0
 
     # computer는 아래의 숫자만큼 번호를 다시 뽑는다.
-    #tickets_sold = 1000
     tickets_sold = 8145060
     print "[+] 번호분석: 1/%d 개의 난수를 생성하여 생성된 번호와 일치할 확률을 계산" % tickets_sold
 
@@ -117,11 +116,11 @@ def delete_file(saved_lotto_file):
     import os
     if os.path.isfile(saved_lotto_file):
         os.remove(saved_lotto_file)
-    else:    ## Show an error ##
+    else:    
         print("Error: %s file not found" % saved_lotto_file)
 
 def main():
-    #saved_lotto_file = './lotto_numbers.txt'
+    saved_lotto_file = './lotto_numbers.txt'
     count = 2
     games = 0
 
