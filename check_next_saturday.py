@@ -14,6 +14,6 @@ today = DT.date.today()
 print '오늘은 %s 입니다.' % today
 
 rd = REL.relativedelta(days=1, weekday=REL.SA)
-next_friday = today + rd
+next_saturday = today + rd
 
-print '돌아오는 토요일은 %s 입니다.' % next_friday
+print '돌아오는 토요일은 %s 입니다.' % next_saturday
