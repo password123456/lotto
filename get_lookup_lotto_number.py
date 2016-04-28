@@ -43,6 +43,7 @@ def user_random():
         except :
             print "[-] 범위안(1~45) 의 번호로 넣어주세요.!"
     return ui
+    
 def match_lists(list1 , list2):
     """컴퓨터 번호와 나의 번호를 대입한다"""
     set1 = set( list1)
